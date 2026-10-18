@@ -1,0 +1,7 @@
+node_index,label,temperature_degC
+0,hot-side reservoir,100.000000000
+1,interface 1: hot film / brick,99.112894709
+2,interface 2: brick / mortar joint,94.043721618
+3,interface 3: mortar joint / insulation,93.334037385
+4,interface 4: insulation / cold film,22.365614109
+5,cold-side reservoir,20.000000000

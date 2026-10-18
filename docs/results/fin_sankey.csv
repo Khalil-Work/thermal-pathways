@@ -1,0 +1,8 @@
+label,watts
+convection 0–38 mm,16.690862413
+convection 38–75 mm,10.078299939
+convection 75–112 mm,6.545721746
+convection 112–150 mm,5.013552372
+insulated tip (q(L) = 0),0.000000000
+inflow,38.328436470
+residual,+0.000000e+00
