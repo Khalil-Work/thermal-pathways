@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Thermal Pathways banner">
+  <defs>
+    <linearGradient id="warm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a140c"/>
+      <stop offset="1" stop-color="#170703"/>
+    </linearGradient>
+    <linearGradient id="wallg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e86a3c"/>
+      <stop offset="0.5" stop-color="#c9a15f"/>
+      <stop offset="1" stop-color="#7fb8d8"/>
+    </linearGradient>
+    <marker id="hparr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#f0c987"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="300" fill="url(#warm)"/>
+  <!-- wordmark LEFT -->
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="70" y="120" fill="#ffffff" font-size="56" font-weight="800" letter-spacing="1">Thermal <tspan fill="#f0a84b">Pathways</tspan></text>
+    <text x="72" y="163" fill="#e0c9b8" font-size="21">resistance networks · fins · balanced heat flows</text>
+    <text x="72" y="201" fill="#a08868" font-family="Consolas, monospace" font-size="15">q = ΔT/ΣR · θ(x) = θ0 cosh(m(L−x))/cosh(mL)</text>
+  </g>
+  <!-- composite wall + fin on RIGHT -->
+  <g transform="translate(620,45)">
+    <!-- wall layers with temperature gradient -->
+    <rect x="0" y="10" width="70" height="120" fill="#b3542e" stroke="#f0c987" stroke-width="1.5"/>
+    <rect x="70" y="10" width="70" height="120" fill="#8a6d3b" stroke="#f0c987" stroke-width="1.5"/>
+    <rect x="140" y="10" width="70" height="120" fill="#4a6d8a" stroke="#f0c987" stroke-width="1.5"/>
+    <text x="4" y="6" fill="#e86a3c" font-family="Consolas, monospace" font-size="14">T_hot</text>
+    <text x="168" y="6" fill="#7fb8d8" font-family="Consolas, monospace" font-size="14">T_cold</text>
+    <!-- heat arrow through wall -->
+    <line x1="10" y1="70" x2="200" y2="70" stroke="#f0c987" stroke-width="4" marker-end="url(#hparr)"/>
+    <text x="105" y="92" fill="#f0c987" font-family="Consolas, monospace" font-size="14" text-anchor="middle">q = ΔT / ΣR</text>
+    <!-- fin below -->
+    <rect x="0" y="160" width="150" height="16" fill="#c9a15f" stroke="#f0c987" stroke-width="1.5"/>
+    <path d="M 0 156 C 60 152, 120 148, 150 146" stroke="#e86a3c" stroke-width="2.5" fill="none"/>
+    <path d="M 0 172 C 60 176, 120 180, 150 182" stroke="#4a6d8a" stroke-width="0" fill="none"/>
+    <path d="M 150 156 L 150 178" stroke="#7fb8d8" stroke-width="2"/>
+    <text x="0" y="205" fill="#e0c9b8" font-family="Consolas, monospace" font-size="13">fin base</text>
+    <text x="96" y="205" fill="#7fb8d8" font-family="Consolas, monospace" font-size="13">tip</text>
+    <!-- heat squiggles off fin -->
+    <path d="M 40 138 q 6 -8 12 0 q 6 8 12 0" stroke="#e8a06a" stroke-width="2" fill="none"/>
+    <path d="M 90 134 q 6 -8 12 0 q 6 8 12 0" stroke="#e8a06a" stroke-width="2" fill="none"/>
+    <text x="160" y="150" fill="#a08868" font-family="Consolas, monospace" font-size="13">q_f = √(hPkA_c)·θ0·tanh(mL)</text>
+  </g>
+</svg>
