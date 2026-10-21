@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/banner.svg" alt="Thermal Pathways banner: warm composite wall with heat arrow and a straight fin dissipating heat" width="100%">
+<img src="docs/banner.png" alt="Thermal Pathways banner: warm composite wall with heat arrow and a straight fin dissipating heat" width="100%">
 
 # 🌉 Thermal Pathways
 
@@ -57,7 +57,7 @@ Details: [docs/model.md](docs/model.md); API: [docs/api.md](docs/api.md).
 flowchart LR
     A[layers, areas,<br/>k, h, contact R] --> B1[series/parallel<br/>reduction → q]
     A --> B2[node-matrix assembly<br/>solve → q]
-    B1 --> C{agree to<br/>roundoff?}
+    B1 --> C{"agree to<br/>roundoff?"}
     B2 --> C
     C -- yes --> D[✅ temperatures,<br/>residual ~ 1e-12 W]
     C -- no --> X[❌ test failure]
