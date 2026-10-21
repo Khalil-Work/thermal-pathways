@@ -11,13 +11,13 @@ node-matrix and direct reduction with roundoff energy balances (1.7e-12 W), exac
 straight-fin analytics with three tip treatments, and a quantitatively balanced fin
 Sankey closing to 0.0 W.**
 
-[![tests](https://github.com/khalil-official/thermal-pathways/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-official/thermal-pathways/actions/workflows/ci.yml)
+[![tests](https://github.com/khalil-work/thermal-pathways/actions/workflows/ci.yml/badge.svg)](https://github.com/khalil-work/thermal-pathways/actions/workflows/ci.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![python](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue.svg)](requirements.txt)
 [![tests](https://img.shields.io/badge/tests-27%20passing-brightgreen.svg)](tests)
 [![balance](https://img.shields.io/badge/energy%20residual-1.7e--12%20W-orange.svg)](docs/verification.md)
-[![repo stars](https://img.shields.io/github/stars/khalil-official/thermal-pathways?style=flat&color=yellow)](https://github.com/khalil-official/thermal-pathways/stargazers)
-[![last commit](https://img.shields.io/github/last-commit/khalil-official/thermal-pathways?color=9cf)](https://github.com/khalil-official/thermal-pathways/commits)
+[![repo stars](https://img.shields.io/github/stars/khalil-work/thermal-pathways?style=flat&color=yellow)](https://github.com/khalil-work/thermal-pathways/stargazers)
+[![last commit](https://img.shields.io/github/last-commit/khalil-work/thermal-pathways?color=9cf)](https://github.com/khalil-work/thermal-pathways/commits)
 
 [Quick start](#-quick-start) · [Method](#-model-method-and-guarantees) · [Animation](#%EF%B8%8F-results-gallery) · [Metrics](#-results-and-metrics) · [References](#-references)
 
