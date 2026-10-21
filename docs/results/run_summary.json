@@ -1,0 +1,34 @@
+{
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "system": "Windows-11-10.0.26200-SP0"
+  },
+  "wall": {
+    "total_resistance_K_per_W": 1.1272619047619048,
+    "heat_rate_W": 70.96842327595311,
+    "energy_balance_residual_W": 1.7053025658242404e-12,
+    "core_series_resistance_K_per_W": 1.0814285714285714
+  },
+  "fin": {
+    "case": "aluminum 50x3 mm, L=150 mm, k=200, h=60, Tb=120, Tinf=30",
+    "m_per_m": 14.560219778561036,
+    "q_insulated_W": 38.328436469859575,
+    "q_corrected_W": 38.36769005017913,
+    "q_convective_tip_W": 38.367695495388965,
+    "efficiency": 0.4426870895370847,
+    "effectiveness": 47.36751858046806,
+    "midpoint_symmetry_K": 0.0
+  },
+  "sankey": {
+    "inflow_W": 38.328436469859575,
+    "outflow_total_W": 38.328436469859575,
+    "residual_W": 0.0,
+    "note": "computed model output; one consistent quantity [W]"
+  },
+  "animation": {
+    "file": "fin_length_progression.gif",
+    "frames": 41,
+    "content": "each frame is a full analytic solution at that fin length"
+  }
+}
