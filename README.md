@@ -19,7 +19,7 @@ Sankey closing to 0.0 W.**
 [![repo stars](https://img.shields.io/github/stars/khalil-work/thermal-pathways?style=flat&color=yellow)](https://github.com/khalil-work/thermal-pathways/stargazers)
 [![last commit](https://img.shields.io/github/last-commit/khalil-work/thermal-pathways?color=9cf)](https://github.com/khalil-work/thermal-pathways/commits)
 
-[Quick start](#-quick-start) · [Method](#-model-method-and-guarantees) · [Animation](#%EF%B8%8F-results-gallery) · [Metrics](#-results-and-metrics) · [References](#-references)
+[Homepage](https://khalil-work.github.io) · [Quick start](#-quick-start) · [Method](#-model-method-and-guarantees) · [Animation](#%EF%B8%8F-results-gallery) · [Metrics](#-results-and-metrics) · [References](#-references)
 
 </div>
 
